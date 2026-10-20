@@ -1,0 +1,10 @@
+id,ponto,veiculo,inicio,saida,permanencia_min,soc_inicial,soc_prometido,soc_final,promessa_cumprida,energia_kwh,energia_renovavel_kwh,energia_pico_kwh,custo_brl,minutos_reduzidos
+1,P3,Chevrolet Bolt EV,11:05,13:05,120,0.33,0.54,0.54,True,12.576,12.576,0.0,10.69,0
+2,P2,Renault Kwid E-Tech,12:00,16:05,245,0.2,0.9,0.9,True,18.76,17.263,0.0,15.95,30
+3,P3,BYD Song Plus,14:25,18:45,260,0.36,0.8,0.8,True,31.592,9.074,0.0,26.85,0
+4,P4,BYD Dolphin,16:50,18:25,95,0.41,0.62,0.62,True,9.42,4.684,1.253,8.7,15
+5,P1,BYD Dolphin,18:05,21:15,190,0.24,0.66,0.66,True,18.84,6.991,18.124,25.98,80
+6,P2,Renault Kwid E-Tech,18:05,22:20,255,0.38,1.0,1.0,True,16.616,6.591,15.091,22.42,145
+7,P4,BYD Song Plus,19:55,22:35,160,0.14,0.374,0.374,True,16.772,0.0,6.947,18.08,110
+8,P3,BYD Song Plus,19:55,24:00,245,0.24,0.772,0.772,True,38.176,0.0,10.327,38.13,85
+9,P1,Volvo XC40 Recharge,21:55,24:00,125,0.17,0.338,0.338,True,13.104,0.0,0.0,11.14,10

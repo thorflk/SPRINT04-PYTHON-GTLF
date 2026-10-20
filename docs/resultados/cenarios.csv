@@ -1,0 +1,5 @@
+cenario,nome,sessoes,recusadas,promessas_cumpridas,pct_promessas,energia_entregue_kwh,energia_pendente_kwh,energia_solar_kwh,energia_bateria_kwh,solar_para_bateria_kwh,solar_excedente_kwh,energia_rede_kwh,energia_rede_ponta_kwh,pct_renovavel,pico_rede_kw,minutos_acima_limite,minutos_acima_disponivel,minutos_reduzidos,custo_rede_brl,receita_brl,margem_brl,co2_rede_kg,co2_evitado_vs_combustao_kg,soc_max_bateria
+A,Sem gestão,9,1,9,100.0,175.86,0.0,0.0,0.0,0.0,0.0,175.86,47.09,0.0,31.16,65,15,0,173.97,180.26,6.29,8.11,131.89,
+B,Solar + controle (Sprint 3),9,1,9,100.0,175.86,0.0,38.14,0.0,0.0,29.31,137.72,43.61,21.7,24.0,0,0,95,144.34,178.05,33.72,6.35,131.89,
+C,+ Bateria (autoconsumo),9,1,9,100.0,175.86,0.0,38.14,19.04,21.16,8.15,118.68,43.61,32.5,24.0,0,0,95,130.64,178.05,47.42,5.47,131.89,1.0
+D,Solução final (preditiva),9,1,9,100.0,175.86,0.0,38.13,19.05,21.16,8.15,118.68,25.2,32.5,24.0,0,0,225,115.51,177.94,62.44,5.47,131.89,1.0

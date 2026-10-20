@@ -1,0 +1,57 @@
+════════════════════════════════════════════════════════════════════════
+  CHARGEGRID INTELLIGENCE — Solução final (Sprint 4)
+  EV Challenge 2026 | FIAP x GoodWe | Grupo GTLF | seed 15
+  Todos os dados são SIMULADOS (ver README).
+════════════════════════════════════════════════════════════════════════
+
+──── Operação (cenário D) ──────────────────────────────────────────────
+  Sessões: 9 (9 promessas de carga cumpridas, 1 recusada por falta de ponto)
+  Limite da rede            : 24,0 kW (30 kW disponíveis x 0,80)
+  Pico de importação        : 24,0 kW
+  Tempo com potência reduzida (corte ou adiamento): 225 min
+
+──── Energia: solar, bateria e rede ────────────────────────────────────
+  Energia entregue  : 175,9 kWh
+  Solar direto      : 38,1 kWh
+  Bateria           : 19,1 kWh (carregou 21,2 kWh de sol)
+  Rede              : 118,7 kWh (25,2 kWh na ponta)
+  Renovável         : 32,5% da energia das recargas
+
+──── Comparação: o mesmo dia em 4 estratégias ──────────────────────────
+  A = Sem gestão · B = Solar + controle (Sprint 3) · C = + Bateria (autoconsumo) · D = Solução final (preditiva)
+  Indicador                           A          B          C          D
+  Custo da rede (R$)             173,97     144,34     130,64     115,51
+  Energia da rede (kWh)           175,9      137,7      118,7      118,7
+    na ponta 17h30-20h30           47,1       43,6       43,6       25,2
+  Renovável (%)                     0,0       21,7       32,5       32,5
+  Pico na rede (kW)                31,2       24,0       24,0       24,0
+  Min. acima do limite               65          0          0          0
+  Promessas cumpridas (%)         100,0      100,0      100,0      100,0
+  Margem do operador (R$)          6,29      33,72      47,42      62,44
+
+──── Ganhos da solução final (D) sobre o eletroposto sem gestão (A) ────
+  Custo da energia da rede: -R$ 58,46 (33,6%)
+  Energia comprada da rede: -57,2 kWh (32,5%); na ponta: -46,5%
+  Pico na rede: -7,2 kW · CO₂ da rede evitado: 2,64 kg · margem: +R$ 56,15
+  CO₂ evitado pelos EVs vs combustão: 131,9 kg
+
+──── IA — previsão que alimenta o despacho da bateria ──────────────────
+  Erro médio da previsão por hora: 3,01 kW (baseline constante: 7,33 kW)
+  • Pico previsto entre 19h e 22h: demanda média de 20,5 kW (85% do limite de 24 kW).
+  • A tarifa de pico (R$ 1,40/kWh, 18h–21h) cobre só parte dessa janela; nas demais horas é R$ 0,85/kWh — vale avaliar estender a faixa de pico.
+  • Melhores horários para recarregar: 9h, 10h, 11h — menor ocupação prevista, tarifa normal e geração solar disponível.
+  • Exemplo: deslocar uma recarga de 30 kWh do pico para esses horários economiza R$ 16,50.
+
+──── Sessões do dia (cenário D) ────────────────────────────────────────
+ id ponto             veiculo inicio saida  soc_prometido  soc_final  energia_kwh  energia_renovavel_kwh  custo_brl
+  1    P3   Chevrolet Bolt EV  11:05 13:05          0.540      0.540       12.576                 12.576      10.69
+  2    P2 Renault Kwid E-Tech  12:00 16:05          0.900      0.900       18.760                 17.263      15.95
+  3    P3       BYD Song Plus  14:25 18:45          0.800      0.800       31.592                  9.074      26.85
+  4    P4         BYD Dolphin  16:50 18:25          0.620      0.620        9.420                  4.684       8.70
+  5    P1         BYD Dolphin  18:05 21:15          0.660      0.660       18.840                  6.991      25.98
+  6    P2 Renault Kwid E-Tech  18:05 22:20          1.000      1.000       16.616                  6.591      22.42
+  7    P4       BYD Song Plus  19:55 22:35          0.374      0.374       16.772                  0.000      18.08
+  8    P3       BYD Song Plus  19:55 24:00          0.772      0.772       38.176                  0.000      38.13
+  9    P1 Volvo XC40 Recharge  21:55 24:00          0.338      0.338       13.104                  0.000      11.14
+════════════════════════════════════════════════════════════════════════
+
