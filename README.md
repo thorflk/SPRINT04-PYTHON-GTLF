@@ -448,6 +448,27 @@ estratégias:
 - **Sustentabilidade econômica:** sem gestão, a margem do operador é de R$ 6,29/dia, praticamente nula. Com a
   solução, R$ 62,44. Um eletroposto que não se paga não ajuda a eletromobilidade.
 
+**Ganhos de eficiência e automação (dia de demonstração):**
+
+| Ganho | Valor |
+|---|---|
+| Energia comprada da rede por kWh entregue | 1,00 (A) → **0,67** (D) |
+| Custo da rede por kWh entregue | R$ 0,99 (A) → **R$ 0,66** (D) |
+| Decisões automáticas por dia | 288 intervalos × (4 pontos + bateria), sem intervenção humana |
+| Comandos enviados aos carregadores | 76 `SetChargingProfile`, só quando o limite muda (sem tráfego desnecessário) |
+| Capacidade sem obra | a demanda pede até 31,6 kW e a rede nunca passa de 24 kW; ainda assim, as 9 promessas de carga são cumpridas, porque o agendador reorganiza a recarga no tempo em vez de exigir uma conexão maior |
+
+**Relevância social:**
+
+- **Motorista atendido:** quem informa a hora de saída recebe a carga prometida (9 de 9 no dia; 89,7% em 30 dias,
+  contra 85,3% da Sprint 3), em vez de um corte igual para todos que pode deixar alguém sem carga.
+- **Recarga mais barata para o motorista:** a mesma energia sai por R$ 177,94 em vez de R$ 180,26, porque parte dela
+  sai do horário de pico.
+- **Eletroposto viável onde as pessoas estão:** um shopping consegue oferecer recarga com a conexão que já tem, e com
+  margem positiva, sem obra de reforço da rede. Isso amplia o acesso à recarga.
+- **Benefício para quem nem tem carro elétrico:** tirar consumo da ponta reduz a pressão sobre a rede da
+  distribuidora no horário mais crítico, que é compartilhada por todos os consumidores.
+
 ### 9.2 Inovação
 
 1. **A previsão comanda o hardware.** Na Sprint 3 a previsão só gerava texto. Agora ela decide, a cada 5 minutos, quanto
