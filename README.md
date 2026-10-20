@@ -387,7 +387,7 @@ dela**, `python -m chargegrid.varredura --n 30` roda 30 dias diferentes
 **Painel interativo** (`streamlit run painel.py`). Indicadores da estratégia escolhida, comparados com A, e o fluxo de
 energia. Na barra lateral é possível mudar o dia, a usina, a bateria e a carga da rede e ver o efeito na hora.
 
-![Painel: fluxo de energia](docs/img/painel_fluxo.png)
+![Painel: fluxo de energia](docs/img/painel_energia.png)
 
 **Comparar cenários** no painel: rede nas quatro estratégias e os indicadores lado a lado.
 
