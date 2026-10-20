@@ -29,13 +29,19 @@ Sprint 3 em **30 de 30**, e **0 minuto** acima do limite da rede (seção 8.3).
 
 ## Sumário
 
-1. [Equipe](#1-equipe) · 2. [Vídeo](#2-vídeo-técnico) · 3. [Evolução](#3-evolução-sprint-1--sprint-4) ·
-4. [Arquitetura final e integração](#4-arquitetura-final-e-integração-dos-sistemas) ·
-5. [Como cada item resolve o desafio](#5-como-cada-item-resolve-um-ponto-chave-do-desafio) ·
-6. [Alinhamento GoodWe](#6-alinhamento-ao-desafio-goodwe) · 7. [Alinhamento à disciplina](#7-alinhamento-à-disciplina) ·
-8. [Resultados](#8-resultados-quantitativos-e-qualitativos) · 9. [Avaliação crítica](#9-avaliação-crítica-sustentabilidade-inovação-e-limites) ·
-10. [Referências](#10-referências-e-conexões-com-frameworks-ferramentas-linguagens-e-sensores) ·
-11. [Como executar](#11-como-executar) · 12. [Premissas](#12-premissas) · 13. [Estrutura](#13-estrutura-do-repositório)
+1. [Equipe](#1-equipe)
+2. [Vídeo técnico](#2-vídeo-técnico)
+3. [Evolução: Sprint 1 → Sprint 4](#3-evolução-sprint-1--sprint-4)
+4. [Arquitetura final e integração dos sistemas](#4-arquitetura-final-e-integração-dos-sistemas)
+5. [Como cada item resolve um ponto-chave do desafio](#5-como-cada-item-resolve-um-ponto-chave-do-desafio)
+6. [Alinhamento ao desafio GoodWe](#6-alinhamento-ao-desafio-goodwe)
+7. [Alinhamento à disciplina](#7-alinhamento-à-disciplina)
+8. [Resultados quantitativos e qualitativos](#8-resultados-quantitativos-e-qualitativos)
+9. [Avaliação crítica: sustentabilidade, inovação e limites](#9-avaliação-crítica-sustentabilidade-inovação-e-limites)
+10. [Referências: frameworks, ferramentas, linguagens e sensores](#10-referências-e-conexões-com-frameworks-ferramentas-linguagens-e-sensores)
+11. [Como executar](#11-como-executar)
+12. [Premissas](#12-premissas)
+13. [Estrutura do repositório](#13-estrutura-do-repositório)
 
 ---
 
