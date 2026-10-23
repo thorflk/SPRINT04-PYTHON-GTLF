@@ -58,7 +58,7 @@ Sprint 3 em **30 de 30**, e **0 minuto** acima do limite da rede (seção 8.3).
 
 ## 2. Vídeo técnico
 
-Vídeo (YouTube, não listado, até 5 minutos): **[link a inserir]**
+Vídeo (YouTube, não listado, 4:41): **https://youtu.be/QL8uxydXEqs**
 
 ---
 
